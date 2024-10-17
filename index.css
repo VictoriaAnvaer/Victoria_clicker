@@ -7,14 +7,16 @@ body {
     /*to avoid image repetition if you have a background image, this will take the entire viewport */
     height:100vh; 
   }
-  
+
   .container{
     background: white;
     opacity: 0.90;
+    width: 800px;
     max-width: 80%; 
     margin: auto; /* this helps centering */
     border: 3px solid black;
     border-radius: 10px;
+    margin-bottom: 20px;
   }
   
   h1 {
@@ -29,8 +31,7 @@ body {
   }
   
   button {
-    /*border: none; */
-    border: 1px solid #211717;
+    border: 2px solid #211717;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -41,10 +42,18 @@ body {
   }
   
   #increment-btn {
-   background: #2C2891;;
+   background: #2C2891;
+  }
+
+  #decrement-btn {
+    background:#b14343;
   }
   
   #save-btn {
-    background: #660063;
+    background: #00665e;
+  }
+
+  #reset-btn {
+    background:#2e7532
   }
   

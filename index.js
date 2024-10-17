@@ -11,6 +11,18 @@ function increment() {
     console.log(countHTML);
 }
 
+function decrement() {
+    if (count > 0) {
+        count--;
+    countHTML.innerText = count;
+    }
+}
+
 function save() {
     saved.innerText = saved.innerText + " " + count + " -";
+}
+
+function reset() {
+    count = 0;
+    countHTML.innerText = count;
 }
